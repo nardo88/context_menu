@@ -10,5 +10,7 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': 'warn',
+    'no-undef': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
   },
 }
