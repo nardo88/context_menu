@@ -1,9 +1,13 @@
-.content {
-    width: 100%;
-    margin: 300px auto;
+ul {
+  list-style: none;
 }
 
+.nav {
+  padding: 10px;
+  display: flex;
+  align-items: center;
 
-ul {
-    list-style: none;
+  &__item {
+    margin-right: 10px;
+  }
 }

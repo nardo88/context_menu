@@ -29,7 +29,7 @@ export const ContextMenu: FC<ContextMenu> = (props) => {
     e.preventDefault()
     const target = e.target as HTMLDivElement
 
-    setData(target.closest('.list-item').getAttribute('data-userId'))
+    setData(target.closest('.list-item').getAttribute('data-userid'))
     const { left, top } = ref.current.getBoundingClientRect()
     setPoints({
       x: e.pageX - left,
