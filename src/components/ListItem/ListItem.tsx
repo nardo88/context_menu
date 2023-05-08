@@ -9,7 +9,7 @@ interface ListItem extends IDataItem {
 export const ListItem: FC<ListItem> = (props) => {
   const { id, age, name, tel } = props
   return (
-    <li data-userid={id} className="list-item">
+    <li data-id={id} className="list-item">
       <div>{name}</div>
       <div>{age}</div>
       <div>{tel}</div>
