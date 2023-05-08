@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: flex-end;
+  background: skyblue;
+}
+
+.navItem {
+  margin-left: 20px;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.content {
+  margin-top: 30px;
+}

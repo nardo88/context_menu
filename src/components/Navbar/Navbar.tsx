@@ -1,17 +1,20 @@
 import { Link, Outlet } from 'react-router-dom'
+import cls from './Navbar.module.scss'
 
 export const Navbar = () => {
   return (
-    <div>
-      <ul className="nav">
-        <li className="nav__item">
+    <div className={cls.layout}>
+      <ul className={cls.nav}>
+        <li className={cls.navItem}>
           <Link to={'/'}>table</Link>
         </li>
-        <li className="nav__item">
+        <li className={cls.navItem}>
           <Link to={'/grid'}>grid</Link>
         </li>
       </ul>
-      <Outlet />
+      <div className={cls.content}>
+        <Outlet />
+      </div>
     </div>
   )
 }

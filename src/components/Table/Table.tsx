@@ -12,6 +12,21 @@ const mockData = [
   { id: '6', name: 'Mary', age: 26, tel: '89035259226' },
   { id: '7', name: 'Don', age: 45, tel: '89035259226' },
   { id: '8', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '9', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '10', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '11', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '12', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '13', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '14', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '15', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '16', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '17', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '18', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '19', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '20', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '21', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '22', name: 'Pit', age: 39, tel: '89035259226' },
+  { id: '23', name: 'Pit', age: 39, tel: '89035259226' },
 ]
 
 export const Table: FC = () => {

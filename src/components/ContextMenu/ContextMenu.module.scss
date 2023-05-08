@@ -1,0 +1,57 @@
+.wrapper {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  visibility: hidden;
+  width: 200px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+
+  ul {
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    border-radius: 12px;
+  }
+
+  li {
+    cursor: pointer;
+    padding: 0 24px 0 18px;
+    border-bottom: 1px solid var(--border-color);
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover {
+      background-color: var(--border-color);
+    }
+  }
+}
+
+.isOpen {
+  visibility: visible;
+  animation-name: move;
+  animation-duration: 0.2s;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
